@@ -1,0 +1,157 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1d25;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Employee List */
+
+.employee-list-heading {
+  color: #fff;
+  margin: 60px 200px 80px 30px;
+  width: 250px;
+}
+
+.add-employee {
+  position: relative;
+  bottom: 19.5vh;
+  left: 80vw;
+}
+
+.employee {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.employee-card {
+  width: 400px;
+  height: 150px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #333;
+}
+
+.employee-list-page {
+  margin-left: 20px;
+}
+
+
+.item-key {
+  width: 200px;
+  font-weight: bolder;
+}
+
+.employee-card-top {
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.employee-card-detail {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.employee-list-page a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+/* Employee Detail */
+
+.employee-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  color: #333;
+}
+
+
+.employee-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.employee-detail div {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.employee-detail label {
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+
+.success-message {
+  text-align: center;
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: larger;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.employee-detail-key {
+  width: 200px;
+  align-self: center;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 20px;
+}
