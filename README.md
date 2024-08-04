@@ -4,21 +4,21 @@
 
 Employee Listing(CRUD)
 
-## Description
-A brief description of your project.
-
 ## Installation
 
 Clone the repository:
+
 ### `git clone <your-github-repo-url>`
 
 Open your terminal and navigate to your project directory
+
 ### `cd <your-project-directory>`
 
 Installing node moduless
+
 ### `npm init`
 
-for running and using the project.
+For running and using the project.\
 
 ### `npm start`
 
